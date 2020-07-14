@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/darkly/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Autocomplete</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="autocomplete">
+        <input
+          type="text"
+          class="autocomplete__input"
+          placeholder="Search repository..."
+        />
+        <ul class="search-list"></ul>
+        <div class="info"></div>
+      </div>
+    </div>
+
+    <template class="infoBlock">
+      <div class="info__block">
+        <div class="info__image">
+          <img class="info__avatar" alt="avatar_user" />
+        </div>
+        <div class="info__description">
+          <span class="info__owner"></span>
+          <span class="info__repository"></span>
+          <span class="info__stars"></span>
+        </div>
+        <button type="button" class="close"></button>
+      </div>
+    </template>
+
+    <script type="module" src="js/debounce.js"></script>
+    <script type="module" src="js/common.js"></script>
+  </body>
+</html>
