@@ -95,21 +95,21 @@ body {
 }
 
 .info .info__block .info__owner {
-  background-image: url(../img/github.png);
+  background-image: url(https://logodix.com/logo/64439.png);
   background-repeat: no-repeat;
   background-position: 0 50%;
   background-size: contain;
 }
 
 .info .info__block .info__repository {
-  background-image: url(../img/rep.png);
+  background-image: url(https://icon-icons.com/icons2/1379/PNG/32/folderorangegithub_93236.png);
   background-repeat: no-repeat;
   background-position: 0 50%;
   background-size: contain;
 }
 
 .info .info__block .info__stars {
-  background-image: url(../img/star.png);
+  background-image: url(https://icon-icons.com/icons2/39/PNG/32/favoritesilver_star_favorite_6338.png);
   background-repeat: no-repeat;
   background-position: 0 50%;
   background-size: contain;
