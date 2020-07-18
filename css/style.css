@@ -5,6 +5,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+button:active,
+button:active,
+button {
+  outline: none;
+}
+
 .container {
   width: 600px;
   margin: 0 auto;
@@ -79,9 +85,9 @@ body {
 }
 
 .info .info__block .close {
-  height: 25px;
-  width: 20px;
-  background-image: url(https://www.iconsdb.com/icons/preview/persian-red/close-window-xxl.png);
+  height: 35px;
+  width: 30px;
+  background-image: url('../img/close.png');
   background-repeat: no-repeat;
   background-size: contain;
   transition: 0.4s;
