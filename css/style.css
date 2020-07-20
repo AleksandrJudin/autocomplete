@@ -30,6 +30,10 @@ button {
   transition: 0.4s;
 }
 
+.autocomplete h1 {
+  margin-bottom: 20px;
+}
+
 .autocomplete input:focus {
   border: none;
   border-bottom: 1px solid #8b8b8b;
